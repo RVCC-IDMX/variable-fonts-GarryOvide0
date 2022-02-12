@@ -2,9 +2,10 @@
   "name": "variable-fonts-garryovide0",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "rm -f dist/* && parcel build src/index.html"
   },
   "repository": {
     "type": "git",

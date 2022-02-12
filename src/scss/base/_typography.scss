@@ -1,7 +1,8 @@
 /* typography */
 
 @font-face {
-    font-family: 'Fraunces';
+	font-family: 'Fraunces';
+	src: url("../../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf");
 }
 
 $font: "Fraunces", serif;
